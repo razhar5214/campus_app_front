@@ -4,7 +4,7 @@ import {Link} from "react-router-dom"
 import "./navbar.css"
 
 export default function Navbar(props){
-    console.log(props)
+    //console.log(props)
     const headerMessage = props.message;
 
     return(

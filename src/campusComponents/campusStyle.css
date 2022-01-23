@@ -1,5 +1,5 @@
 .campusList-body{
-    width: 60%;
+    width: 63%;
     margin:auto;
     min-width: 900px;
     /* background-color: lawngreen; */
@@ -62,4 +62,34 @@
 #add-campus-submit-btn{
     position: relative;
     right: -32%;
+}
+.campus-cards{
+    /* width: 900px;
+    margin: auto; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.campus-card{
+    border: 1px solid grey;
+    width: 43%;
+    height: 220px;
+    margin-right: 40px;
+    margin-bottom: 100px;
+    display: flex;
+    padding: 15px;
+    
+}
+.campus-card img{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 120px;
+    height: 60%;
+}
+.campus-card-name{
+    color:rgb(245, 60, 152);
+    font-size: 24px;
+    text-decoration: underline;
+}
+.campus-card-img-div{
+    /* width: 500px; */
 }

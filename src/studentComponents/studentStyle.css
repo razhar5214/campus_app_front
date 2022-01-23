@@ -1,0 +1,20 @@
+.studentList-body{
+    width: 60%;
+    margin:auto;
+    min-width: 900px;
+    /* background-color: lawngreen; */
+    position: relative;
+    top: -45px;
+    
+}
+.student-cards{
+    display: flex;
+}
+.student-card{
+    border: 1px solid grey;
+    width: 200px
+}
+.student-card img{
+    width: 100px;
+    height: 100px;
+}

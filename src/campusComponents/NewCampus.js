@@ -19,7 +19,7 @@ export default function NewCampus(props){
         e.preventDefault()
         await axios.post(`http://localhost:8080/api/campuses`, {name, imageUrl, address, description})
         setRedirect(true)
-      }
+    }
 
     return(
         <div className="add-campus-body">

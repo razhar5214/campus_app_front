@@ -21,6 +21,7 @@ export default function App() {
           <Route exact path="/" element={<Home {...headerMsg} updateHeaderMsg={updateHeaderMsg}/>}/>
           <Route exact path="/CampusList" element={<CampusList {...headerMsg} updateHeaderMsg={updateHeaderMsg}/>}/>
           <Route exact path="/NewCampus" element={<NewCampus {...headerMsg} updateHeaderMsg={updateHeaderMsg}/>}/>
+          <Route exact path="/StudentList" element={<StudentList {...headerMsg} updateHeaderMsg={updateHeaderMsg}/>}/>
         </Routes>
     </div>
   );
