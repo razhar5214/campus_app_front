@@ -1,0 +1,65 @@
+.campusList-body{
+    width: 60%;
+    margin:auto;
+    min-width: 900px;
+    /* background-color: lawngreen; */
+    position: relative;
+    top: -45px;
+    
+}
+.campusList-head{
+    /* background-color: lightcoral; */
+    min-width: 800px;
+    margin:auto;
+    display: flex;
+    padding-left: 30px;
+    font-size: 22px;
+}
+
+.addCampus-btn{
+    height: 40px;
+    width: 170px;
+    font-size: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(60, 194, 252);
+    border: none;
+    position: relative;
+    right: -45%;
+    cursor: pointer;
+    float: right;
+}
+.add-campus-body{
+    position: relative;
+    top: -30px;
+}
+.add-campus-form{
+    width: 450px;
+    margin: auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* background-color: blue; */
+}
+.add-campus-form-labels{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.add-campus-input{
+    background-color: rgb(187, 244, 239);
+    width: 90%;
+    padding: 20px;
+    font-size: 18px;
+}
+#add-campus-description{
+    height: 100px;
+    resize: none;
+    overflow: scroll;
+}
+#add-campus-submit-btn{
+    position: relative;
+    right: -32%;
+}
