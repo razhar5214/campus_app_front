@@ -16,10 +16,10 @@ export default function Navbar(props){
                 onClick={event =>  window.location.href='/'}>Home</button>
             
                 <button className="nav-btn" 
-                onClick={event =>  window.location.href='/CampusList'}>Campuses</button>
+                onClick={event =>  window.location.href='/campuses'}>Campuses</button>
 
                 <button className="nav-btn"
-                onClick={event =>  window.location.href='/StudentList'}>Students</button>
+                onClick={event =>  window.location.href='/students'}>Students</button>
                
             </div>
         </div>
